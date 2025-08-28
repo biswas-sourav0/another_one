@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f3f7f5;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+.heart {
+    border-radius: 10px;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-left .logo {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-right span {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #0f9b0f, #1a2980);
+  color: white;
+}
+
+.hero-logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.hero h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 14px;
+}
+
+/* Main Section */
+.main-section {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+/* .heart-btn {
+    width: 5px;
+} */
+
+/* Cards */
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  flex: 3;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.card-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 3px 8px;
+  background: #eee;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card-actions button {
+  flex: 1;
+  margin: 3px;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.copy-btn {
+  background: #eee;
+}
+
+.call-btn {
+  background: #28a745;
+  color: white;
+}
+
+/* History */
+.history {
+  flex: 1;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#historyList {
+  list-style: none;
+  font-size: 14px;
+}
+
+#historyList li {
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+  .main-section {
+    flex-direction: column;
+  }
+}
