@@ -1,0 +1,61 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emergency Service Directory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"><img src="/assets/logo.png" alt=""></div>
+        <div class="name">
+          <span>Emergency Service</span>
+          <small>Bangladesh</small>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat" id="heartStat"><span>💗</span><span id="hearts">0</span></div>
+        <div class="stat pill"><span>🪙</span><span id="coins">100</span></div>
+        <div class="stat pill"><span>📋</span><span id="copies">0</span></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="crest"><img src="/assets/logo (1).png" alt=""></div>
+      <h1>Emergency Service Directory</h1>
+      <p>Government Emergency Services at Your Fingertip - A project by Government of the People's Republic of Bangladesh</p>
+    </div>
+  </section>
+
+  <!-- Main -->
+  <div class="wrapper">
+    <div class="main-grid">
+      <div class="cards" id="cards"></div>
+      <aside class="history">
+        <div class="history-head">
+          <div class="history-title"><span>🕘</span><span>Call History</span></div>
+          <button class="clear-btn" id="clearHistory">Clear</button>
+        </div>
+        <ul class="history-list" id="historyList"></ul>
+      </aside>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+ styles.css
+
+
+// script.js
