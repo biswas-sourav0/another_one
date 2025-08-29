@@ -129,7 +129,8 @@ a{text-decoration:none;color:inherit}
   border-radius:999px;
   background:#eef2ff;
   border:1px solid #e5e7ff;
-  color:#3730a3
+  color: black;
+  margin-bottom: 10px;
 }
 
 .card-actions{margin-top:auto;display:grid;grid-template-columns:1fr 1fr;gap:10px}
